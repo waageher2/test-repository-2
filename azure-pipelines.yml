@@ -14,7 +14,8 @@ pr:
       - rfrydrysek/*
       - herbertwaage/*
 
-pool: Default
+pool:
+  vmImage: 'windows-latest'
 
 jobs:
 - job: HelloWorld
